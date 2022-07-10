@@ -57,22 +57,20 @@ a {
 /*site-nav*/
 
 .link {
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--title-text-color);
+    display: block;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 .nav-link {
-    display: flex;
-    
-}
-.nav-link .item {
-    padding-top: 32px;
-    padding-bottom: 32px; 
+    display: flex;   
 }
 
 .nav-link .item + .item {
@@ -102,6 +100,8 @@ margin-bottom: 200px;
 
 /*hero*/
 .hero {
+    padding-bottom: 200px;
+    padding-top: 200px;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-color);
@@ -109,6 +109,9 @@ margin-bottom: 200px;
     background: #2F303A;
 }
 .title {
+    margin-right: auto;
+    margin-left: auto;
+    width: 696px;
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 900;
@@ -165,6 +168,10 @@ margin-bottom: 200px;
 }
 
 /*works*/
+.works {
+    padding-top: 0;
+}
+
 .works-title,
 .stuff-title {
     font-weight: 700;
@@ -201,7 +208,6 @@ margin-bottom: 200px;
 }
 .stuff-title-name {
     margin-top: 0;
-    padding-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     text-align: center;
@@ -215,22 +221,27 @@ margin-bottom: 200px;
 .stuff-position {
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 30px;
     text-align: center;
+}
+.stuff-card {
+    /* display: block; */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 /*footer*/
 .footer {
     padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A; 
 }
 
 .logo-bottom {
+    display: block;
     color: var(--hero-color);
     margin-bottom: 20px;
     
 }
 .address {
-    padding-bottom: 60px; 
     line-height: 1.71;
     color: var(--hero-color);
     font-style: inherit;
@@ -240,6 +251,7 @@ margin-bottom: 200px;
     margin-bottom: 20px;
 }
 .mail {
+    display: block;
     margin-bottom: 9px;
 }
 
@@ -297,8 +309,6 @@ margin-bottom: 200px;
 }
 .title-portfolio {
     margin-top: 0;
-    padding-top: 20px;
-    margin-left: 24px;
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -309,9 +319,7 @@ margin-bottom: 200px;
 }
 .text-title-portfolio {
     margin-top: 0;
-    margin-left: 24px;
     margin-bottom: 0;
-    padding-bottom: 20px;
     font-size: 16px;
     line-height: 1.9;
     
@@ -319,4 +327,8 @@ margin-bottom: 200px;
 .border {
   border: 1px solid #EEEEEE;
   border-top: transparent;
+  margin-top: 0;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
