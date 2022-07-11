@@ -28,12 +28,12 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-
+header {
+    border-bottom: 1px solid #ECECEC;
+}
 .header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
-    
 }
 .section {
     padding-top: 94px;
@@ -166,6 +166,7 @@ margin-bottom: 200px;
 }
 .advantage-text {
     margin-top: 0;
+    margin-bottom: 0;
     line-height: 1.7;
 }
 
@@ -244,13 +245,14 @@ margin-bottom: 200px;
     
 }
 .address {
+
     line-height: 1.71;
     color: var(--hero-color);
     font-style: inherit;
 }
 .address-street {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 9px;
 }
 .mail {
     display: block;
